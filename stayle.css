@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 1440px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    height: 140px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 148px;
+    border: 2px solid #DEDBDB;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.form {
+    width: 650px;
+    height: 768px;
+    border: 1px solid #F5F5F5;
+    margin: 46px auto;
+    border-radius: 50px;
+    padding: 66px 53px 36px 64px;
+    border: 2px solid rgb(219, 206, 206);
+    
+}
+
+.nav-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exit {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.exit h2 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #F0400F;
+}
+
+.form-h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0E0D5D;
+}
+
+.vibor {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 11px;
+}
+
+.element {
+    width: 255px;
+    height: 54px;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #757575;
+    transition: all 1s;
+
+}
+
+.element:hover {
+    background-color: white;
+    color: black;
+}
+
+.input {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    padding-left: 51px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.input2 {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    padding-left: 51px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 35px;
+}
+
+.oxc {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 80px;
+    color: #757575;
+
+}
+.btn2{
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    font-family: Inter;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+background-color: #F69E86;
+margin-left: 360px;
+margin-top: 59px;
+}
